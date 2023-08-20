@@ -2,7 +2,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { showErrorMsg } from "../utils/errors";
 
-export const baseUrl = "http://localhost:8082";
+export const baseUrl = "https://users-auth-i9vs.onrender.com";
 
 function httpRequest(navigate) {
   const accessToken = localStorage.getItem("userAuthAccessToken");

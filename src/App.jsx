@@ -17,12 +17,16 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "login",
-        element: <Login />,
+        path: "",
+        element: <Signup />,
       },
       {
         path: "signup",
         element: <Signup />,
+      },
+      {
+        path: "login",
+        element: <Login />,
       },
       {
         path: "",
